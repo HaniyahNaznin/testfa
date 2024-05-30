@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="jquery.mobile.structure-1.4.5.min.css">
+    <script src="scripts.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div data-role="page" id="intro">
+        <div data-role="header">
+            <h1>MAKLUMAT PELAJAR PTSS</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <form action="simpan.php" method="post">
+                <label for="name">NAME :</label>
+                <input type="text"  id="name" name="name">
+
+                <label for="noic" >NO IC</label>
+                <input type="text"  id="noic" name="noic">
+
+                <label for="nomatric" > NO MATRIX</label>
+                <input type="text"  id="nomatric" name="nomatric">
+                <br>
+                <button type="submit" id="buttonsubmit">SUBMIT</button>
+                <button type="reset" id="buttonreset">CANCEL</button>
+            </form>
+            <div data-role="footer" style="text-align: center;">
+                <p>@maklumatpelajarptss</p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
